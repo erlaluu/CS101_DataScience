@@ -1,0 +1,14 @@
+---
+title: "Worksheet2 in R"
+author: "Erl Syron R. Espadon"
+output: html_document
+---
+
+#vector using operator
+# a. Sequence from -5 to 5
+seq_vector <- -5:5
+seq_vector
+
+# b. x <- 1:7, the value of x
+x <- 1:7
+x
