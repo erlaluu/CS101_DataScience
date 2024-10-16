@@ -104,7 +104,7 @@ seq1to1000max10
 
 # 9. Print a vector with integers not divisible by 3, 5, or 7
 ```{r}
-otdivisible <- Filter(function(i) { all(i %% c(3, 5, 7) != 0) }, seq(1, 100))
+notdivisible <- Filter(function(i) { all(i %% c(3, 5, 7) != 0) }, seq(1, 100))
 notdivisible 
 ```
 
@@ -144,9 +144,9 @@ x3
 
 
 # 14. Create a vector with NA
+```{r}
 a <- c(1, 2, NA, 4, NA, 6, 7)
 # a. Change NA to 999
-```{r}
 print(a, na.print="-999")
 ```
 
